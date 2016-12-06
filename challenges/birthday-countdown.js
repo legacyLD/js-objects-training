@@ -50,6 +50,7 @@ function birthdayReminder() {
     }
   ];
   var dob = birthdays[0].dob;
-  console.log(dob);
+  var parseDate = birthdays[0].dob.split("/");
+  console.log(parseDate);
 };
 birthdayReminder()

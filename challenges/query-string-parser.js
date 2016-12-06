@@ -47,6 +47,11 @@ var resumeContents = {}
 function parseQueryString(string) {
   var keyPairs = string.split("&");
   console.log(keyPairs);
-  resumeContents[keyPairs];
-}
+  keyPairs.forEach(function(attr) {
+    var keySets = attr.split("=");
+    //resumeContents=keySets;
+    resumeContents[keySets[0]] = keySets[1]; /*why does this work??? :|*/
+    console.log(keySets);
+  });
+};
 parseQueryString("proToolsExperience=12&collegeDegree=BS");

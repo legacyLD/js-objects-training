@@ -43,5 +43,10 @@
     ```
 
 */
-
-// YOUR CODE HERE
+var resumeContents = {}
+function parseQueryString(string) {
+  var keyPairs = string.split("&");
+  console.log(keyPairs);
+  resumeContents[keyPairs];
+}
+parseQueryString("proToolsExperience=12&collegeDegree=BS");

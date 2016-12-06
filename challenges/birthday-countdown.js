@@ -32,21 +32,24 @@
   - To make your output more relevant, can you sort by days remaining (ascending)?
 
 */
-var birthdays = [
-  {
-    name: "Jeremy",
-    dob: "5/20/1974"
-  },
-  {
-    name: "Addie",
-    dob: "7/29/1990"
-  },
-  {
-    name: "Amelia",
-    dob: "3/25/1988"
-  }
-]
-console.log(birthdays);
+//console.log(birthdays);
+//console.log(birthdays[0].dob);
 function birthdayReminder() {
-  console.log(birthdayReminder);
+  var birthdays = [
+    {
+      name: "Jeremy",
+      dob: "5/20/1974"
+    },
+    {
+      name: "Addie",
+      dob: "7/29/1990"
+    },
+    {
+      name: "Amelia",
+      dob: "3/25/1988"
+    }
+  ];
+  var dob = birthdays[0].dob;
+  console.log(dob);
 };
+birthdayReminder()

@@ -29,6 +29,7 @@
     ```
 
 */
+var arrayOfLetters = [];
 function letterCount(word) {
     var lowerCase = word.toLowerCase();
     var letters = lowerCase.split("");
@@ -60,10 +61,10 @@ function letterCount(word) {
     var zCount = 0;
     letters.forEach(function(letter) {
       console.log(letter);
-      var arrayOfLetters = [];
       if (letter==="a") {
         console.log("a works");
         arrayOfLetters.push('a');
       }
   });
+  console.log(arrayOfLetters);
 };

@@ -29,5 +29,41 @@
     ```
 
 */
-
-// YOUR CODE HERE
+function letterCount(word) {
+    var lowerCase = word.toLowerCase();
+    var letters = lowerCase.split("");
+    var aCount = 0;
+    var bCount = 0;
+    var cCount = 0;
+    var dCount = 0;
+    var eCount = 0;
+    var fCount = 0;
+    var gCount = 0;
+    var hCount = 0;
+    var iCount = 0;
+    var jCount = 0;
+    var kCount = 0;
+    var lCount = 0;
+    var mCount = 0;
+    var nCount = 0;
+    var oCount = 0;
+    var pCount = 0;
+    var qCount = 0;
+    var rCount = 0;
+    var sCount = 0;
+    var tCount = 0;
+    var uCount = 0;
+    var vCount = 0;
+    var wCount = 0;
+    var xCount = 0;
+    var yCount = 0;
+    var zCount = 0;
+    letters.forEach(function(letter) {
+      console.log(letter);
+      var arrayOfLetters = [];
+      if (letter==="a") {
+        console.log("a works");
+        arrayOfLetters.push('a');
+      }
+  });
+};
